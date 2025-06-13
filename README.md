@@ -2,6 +2,8 @@
 
 A simple Obsidian plugin that gives you a little dopamine hit when you complete tasks. Get that satisfying feeling of accomplishment with fun celebration animations!
 
+![Screenshot showing Taskopamine animations after marking a task as done](./assets/Screenshot%202025-06-14%20at%201.31.01 AM.png)
+
 ## Features
 
 - Automatic celebration animations when you complete tasks
@@ -10,10 +12,7 @@ A simple Obsidian plugin that gives you a little dopamine hit when you complete 
 
 ## Installation
 
-1. Open Obsidian Settings
-2. Go to Community Plugins
-3. Search for "Taskopamine"
-4. Install and enable the plugin
+Install via [BRAT](https://github.com/TfTHacker/obsidian42-brat).
 
 ## Usage
 

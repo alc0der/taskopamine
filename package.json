@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-taskopamine",
-	"version": "1.0.0-rc.1",
+	"version": "1.0.0",
 	"description": "Get your daily dose of dopamine from completing tasks!",
 	"main": "main.js",
 	"scripts": {
@@ -8,7 +8,12 @@
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
-	"keywords": ["obsidian", "plugin", "tasks", "celebration"],
+	"keywords": [
+		"obsidian",
+		"plugin",
+		"tasks",
+		"celebration"
+	],
 	"author": "alc0der",
 	"license": "MIT",
 	"devDependencies": {

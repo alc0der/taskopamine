@@ -8,7 +8,8 @@ export default class TaskopaminePlugin extends Plugin {
 				const cursor = editor.getCursor();
 				const line = editor.getLine(cursor.line);
 				// Check if the line contains a task that was just completed
-				if (line.match(/^[\s-]*\[x\]/)) {
+				// More specific regex to match only task list items, not any line with [x]
+				if (line.match(/^[\s]*[-*+][\s]*\[x\][\s]/)) {
 					this.triggerCelebration();
 				}
 			})

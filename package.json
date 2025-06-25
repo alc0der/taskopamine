@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-taskopamine",
-	"version": "1.0.0",
+	"version": "1.0.0-rc.2",
 	"description": "Get your daily dose of dopamine from completing tasks!",
 	"main": "main.js",
 	"scripts": {

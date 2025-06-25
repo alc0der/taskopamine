@@ -1,7 +1,7 @@
 {
 	"id": "obsidian-taskopamine",
 	"name": "Taskopamine",
-	"version": "1.0.0",
+	"version": "1.0.0-rc.2",
 	"minAppVersion": "0.15.0",
 	"description": "Get your daily dose of dopamine from completing tasks!",
 	"author": "alc0der",
